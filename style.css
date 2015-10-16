@@ -83,6 +83,7 @@ nav p {
 	min-height: 500px;
 	max-width: 900px;
 	margin: 0 auto;
+	/*text-align: center;*/
 }
 
 	.navbar {
@@ -124,14 +125,86 @@ nav p {
 
 .moreinfo{
 	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
 }
 
+		.moreinfo p {
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			line-height: 30px;
+		}
+		
+		
+		
+		.moreinfo div {
+			/*margin: 0 1%;*/
+		}
+		
 		.info1 {
+			width: 25%;
+			float: left;
+			padding-right: 30px;
+			
+		}
+
+				.info1 p {
+					padding: 50px 0px 30px 0px;
+				}
+		
+		
+		
+		
+		.info2 {
+			width: 30%;
+			float: left;
+			margin: 0px 30px 0px 30px;
+		}
+		
+				.info2 p {
+					padding: 50px 0px 59px 0px;
+				}
+		
+		.info3 {
 			width: 30%;
 			float: left;
 		}
-
-		.info1 p {
+				
+				.info3 p {
+					padding: 50px 0px 90px 0px;
+				}
+		
+				.moreinfo a {
+					text-decoration: none;
+					color: black;
+					font-weight: bold;
+					font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+					
+				}
+				
+				
+		secpicture {
+			
+			width: 90%;
+			
+		}
+		
+		
+			.picholder {
+				width: 100%;
+				text-align: center;
+			}
+		
+		.welcomtosalt p {
 			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+			font-size: 14px;
+			line-height: 18px;
+		}
+		
+		
+		.video {
+			text-align: center;
+			padding-top: 50px;
 		}
