@@ -98,6 +98,10 @@ nav p {
 		float: left;
 	}
 	
+.links {
+	position: relative;
+}
+	
 .links a {
 	padding: 5px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -106,6 +110,12 @@ nav p {
 	text-decoration: none;
 	color: #0061AD;
 }
+
+	button {
+		display: none;
+		margin-top: 60px;
+	}
+
 
 .bigpic {
 	text-align: center;
@@ -208,3 +218,62 @@ nav p {
 			text-align: center;
 			padding-top: 50px;
 		}
+		
+		
+		
+				@media (max-width: 800px){
+					button {
+						display: inline;
+					}
+				}
+				@media (max-width: 348px){
+					button {
+						margin-top: 30px;
+					}
+				}
+				
+				@media (max-width: 800px){
+					.links a {
+						display: none;
+					}
+				}
+				
+				@media (max-width: 465px){
+					.navbar img {
+						max-width: 70%;
+						padding-top: 15%;
+					}
+				}
+				
+				
+				@media (max-width: 350px){
+					.bigpic img {
+						display: none;
+					}
+				}
+				
+				@media (max-width: 530px){
+					.moreinfo .info1 {
+						width: 50%;
+					}
+					.moreinfo .info2 {
+						width: 50%;
+						margin-top: 30px;
+						
+					}
+					.moreinfo .info3 {
+						width: 50%;
+						margin-top: 30px;
+					}
+				}
+			
+				@media (max-width: 987px){
+					.picholder img {
+						width: 80%;
+					}
+					.video iframe {
+						width: 80%;
+					}
+				}
+				
+				
